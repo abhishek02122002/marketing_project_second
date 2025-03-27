@@ -27,136 +27,136 @@ const rotatingTexts = ["React", "JavaScript", "TypeScript", "Next.js", "Node.js"
 // Updated projects array with multiple images
 const projects = [
   {
-    title: "Counter Game",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-123456.jpg",
-      "src/pexels-photo-789012.jpg",
+    "title": "To-Do List App",
+    "images": [
+      "public/projects-image/todo-Project/to-do-project-second.png",
+      "public/projects-image/todo-Project/to-do-project.png",
+      "public/projects-image/todo-Project/to-do-project-second.png"
     ],
-    tags: ["#day1", "useState", "useEffect"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/counter-game",
-    description: "A simple counter game built with React to practice state management.",
-    thoughtness: "easy",
+    "tags": ["#day1", "useState", "eventHandling"],
+    "youtube": "https://www.youtube.com/results?search_query=to+do+list+app+using+react+js+",
+    "github": "https://github.com/example/todo-app",
+    "description": "A simple to-do list app built with React to practice state management and hooks.",
+    "thoughtness": "easy"
   },
   {
-    title: "Project 2",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-234567.jpg",
-      "src/pexels-photo-890123.jpg",
+    "title": "Weather App",
+    "images": [
+      "public/projects-image/weather-app/weather-one.png",
+      "public/projects-image/weather-app/weather-three.png",
+      "public/projects-image/weather-app/weather-two.png"
     ],
-    tags: ["#day2", "React", "Hooks"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-2",
-    description: "A React project exploring custom hooks and component composition.",
-    thoughtness: "medium",
+    "tags": ["#day2", "useEffect", "API"],
+    "youtube": "https://www.youtube.com/embed/weather-app",
+    "github": "https://github.com/example/weather-app",
+    "description": "A weather app that fetches live weather data using an API and displays real-time updates.",
+    "thoughtness": "easy"
   },
   {
-    title: "Project 3",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-345678.jpg",
-      "src/pexels-photo-901234.jpg",
+    "title": "Expense Tracker",
+    "images": [
+      "public/projects-image/expense-tracker/expense-one.png",
+      "public/projects-image/expense-tracker/expense-three.jpg",
+      "public/projects-image/expense-tracker/expense-two.png"
     ],
-    tags: ["#day3", "JavaScript", "Events"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-3",
-    description: "A project focusing on JavaScript event handling and DOM manipulation.",
-    thoughtness: "easy",
+    "tags": ["#day3", "useState", "useContext"],
+    "youtube": "https://www.youtube.com/embed/expense-tracker",
+    "github": "https://github.com/example/expense-tracker",
+    "description": "An app to track daily expenses and manage a budget using React Context API.",
+    "thoughtness": "easy"
   },
   {
-    title: "Project 4",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-456789.jpg",
-      "src/pexels-photo-012345.jpg",
+    "title": "Blog App",
+    "images": [
+      "public/projects-image/blog-project/blog-one.jpg",
+      "public/projects-image/blog-project/blog-second.jpg",
+      "public/projects-image/blog-project/blog-three.png"
     ],
-    tags: ["#day4", "Next.js", "API"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-4",
-    description: "A Next.js app integrating external APIs for dynamic content.",
-    thoughtness: "hard",
+    "tags": ["#day4", "React Router", "CRUD"],
+    "youtube": "https://www.youtube.com/embed/blog-app",
+    "github": "https://github.com/example/blog-app",
+    "description": "A simple blog app where users can create, read, update, and delete blog posts.",
+    "thoughtness": "medium"
   },
   {
-    title: "Project 5",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-567890.jpg",
-      "src/pexels-photo-123450.jpg",
+    "title": "E-commerce Product Listing",
+    "images": [
+      "public/projects-image/ecommerce/ecommerce-one.png",
+      "public/projects-image/ecommerce/ecommerce-third.png",
+      "public/projects-image/ecommerce/ecommerce-two.png"
     ],
-    tags: ["#day5", "CSS", "Animations"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-5",
-    description: "A project showcasing CSS animations and transitions.",
-    thoughtness: "medium",
+    "tags": ["#day5", "Redux Toolkit", "Filters"],
+    "youtube": "https://www.youtube.com/embed/ecommerce",
+    "github": "https://github.com/example/ecommerce",
+    "description": "A product listing page with filtering, sorting, and state management using Redux Toolkit.",
+    "thoughtness": "medium"
   },
   {
-    title: "Project 6",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-678901.jpg",
-      "src/pexels-photo-234501.jpg",
+    "title": "Movie Search App",
+    "images": [
+      "public/projects-image/movie-app/movie-one.jpg",
+      "public/projects-image/movie-app/movie-third.avif",
+      "public/projects-image/movie-app/movie-second.webp"
     ],
-    tags: ["#day6", "Flexbox", "Grid"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-6",
-    description: "A layout-focused project using Flexbox and CSS Grid.",
-    thoughtness: "easy",
+    "tags": ["#day6", "API Integration", "Pagination"],
+    "youtube": "https://www.youtube.com/embed/movie-search",
+    "github": "https://github.com/example/movie-search",
+    "description": "A movie search app that fetches data from TMDB API and displays search results with pagination.",
+    "thoughtness": "medium"
   },
   {
-    title: "Project 7",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-789012.jpg",
-      "src/pexels-photo-345012.jpg",
+    "title": "Real-Time Chat App",
+    "images": [
+      "public/projects-image/chat-project/chat-one.jpg",
+    "public/projects-image/chat-project/chat-two.jpg",
+     "public/projects-image/chat-project/chat-three.png",
     ],
-    tags: ["#day7", "Framer Motion", "GSAP"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-7",
-    description: "An animated project using Framer Motion and GSAP.",
-    thoughtness: "hard",
+    "tags": ["#day7", "Firebase", "Authentication"],
+    "youtube": "https://www.youtube.com/embed/chat-app",
+    "github": "https://github.com/example/chat-app",
+    "description": "A real-time chat application using Firebase for authentication and Firestore for real-time messaging.",
+    "thoughtness": "advanced"
   },
   {
-    title: "Project 8",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-890123.jpg",
-      "src/pexels-photo-456123.jpg",
+    "title": "Next.js Blog with MDX",
+    "images": [
+      "public/projects-image/next-project/next-one.png",
+      "public/projects-image/next-project/next-three.jpg",
+      "public/projects-image/next-project/next-two.jpg"
     ],
-    tags: ["#day8", "TypeScript", "Props"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-8",
-    description: "A TypeScript project focusing on prop types and interfaces.",
-    thoughtness: "medium",
+    "tags": ["#day8", "Next.js", "Markdown"],
+    "youtube": "https://www.youtube.com/embed/nextjs-blog",
+    "github": "https://github.com/example/nextjs-blog",
+    "description": "A blog app built with Next.js that supports MDX for writing blog posts with markdown.",
+    "thoughtness": "advanced"
   },
   {
-    title: "Project 9",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-901234.jpg",
-      "src/pexels-photo-567123.jpg",
+    "title": "Full-Stack Job Portal",
+    "images": [
+      "public/projects-image/job-project/job-one.jpg",
+      "public/projects-image/job-project/job-three.jpg",
+      "public/projects-image/job-project/job-two.avif"
     ],
-    tags: ["#day9", "Firebase", "Auth"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-9",
-    description: "A Firebase-powered app with authentication features.",
-    thoughtness: "hard",
+    "tags": ["#day9", "Next.js", "MongoDB", "JWT"],
+    "youtube": "https://www.youtube.com/embed/job-portal",
+    "github": "https://github.com/example/job-portal",
+    "description": "A full-stack job portal where users can post and apply for jobs, with authentication using JWT.",
+    "thoughtness": "advanced"
   },
   {
-    title: "Project 10",
-    images: [
-      "src/pexels-yurii-hlei-1365795.jpg",
-      "src/pexels-photo-012345.jpg",
-      "src/pexels-photo-678123.jpg",
+    "title": "SaaS Dashboard",
+    "images": [
+      "public/projects-image/dashbaord-app/dashbaord-one.png",
+      "public/projects-image/dashbaord-app/dashbaord-three.jpg",
+      "public/projects-image/dashbaord-app/dashbaord-two.png"
     ],
-    tags: ["#day10", "Redux", "State Management"],
-    youtube: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    github: "https://github.com/example/project-10",
-    description: "A Redux-based project for advanced state management.",
-    thoughtness: "hard",
-  },
-];
+    "tags": ["#day10", "Next.js", "Redux", "Chart.js"],
+    "youtube": "https://www.youtube.com/embed/saas-dashboard",
+    "github": "https://github.com/example/saas-dashboard",
+    "description": "A SaaS analytics dashboard with charts, authentication, and API data integration.",
+    "thoughtness": "advanced"
+  }
+]
 
 const HomePage = () => {
   const { colorMode } = useColorMode();
