@@ -35,7 +35,7 @@ const articles = [
   },
 ];
 
-const ArticleSection = () => {
+const Articles = () => {
   const { colorMode } = useColorMode();
 
   return (
@@ -135,4 +135,4 @@ const ArticleSection = () => {
   );
 };
 
-export default ArticleSection;
+export default Articles;
