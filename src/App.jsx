@@ -7,6 +7,9 @@ import JavaScript from "./pages/JavaScript";
 import ReactPage from "./pages/ReactPage";
 import Tools from "./pages/Tools";
 import Creator from "./pages/Creator";
+import Footer from "./components/Footer";
+import FloatingCode from './components/FloatingCode'
+
 
 const App = () => {
   const { colorMode } = useColorMode(); // Chakra UI ka hook for dark/light mode
@@ -27,8 +30,11 @@ const App = () => {
           <Route path="/tools" element={<Tools />} />
           <Route path="/creator" element={<Creator />} />
         </Routes>
+      <Footer/>
       </Box>
     </Router>
+     
+      
   );
 };
 
