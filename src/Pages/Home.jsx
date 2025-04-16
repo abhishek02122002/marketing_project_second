@@ -173,7 +173,7 @@ const projects = [
 
 const technologies = ["All", "React", "JavaScript", "Next.js"];
 
-const HomePage = () => {
+const Home = () => {
   const { colorMode } = useColorMode();
   const [index, setIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
@@ -433,4 +433,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
