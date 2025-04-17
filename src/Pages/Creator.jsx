@@ -27,7 +27,7 @@ import {
   IconButton
 } from "@chakra-ui/react";
 import { FaYoutube, FaLinkedin, FaInstagram, FaTwitter, FaHeart, FaRegHeart, FaShare, FaTimes } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion";
+import {  AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
