@@ -37,9 +37,9 @@ const creatorData = {
   role: "Web Developer & Educator",
   bio: "Passionate about building digital experiences and teaching others.",
   stats: {
-    followers: "12.5K",
-    projects: "87",
-    experience: "5+ years"
+    followers: "1.5K",
+    projects: "6",
+    experience: "1+ years"
   },
   social: {
     youtube: "https://youtube.com/@AbhishekSingh0212",
@@ -47,12 +47,14 @@ const creatorData = {
     twitter: "https://twitter.com/Abhishek021217",
     instagram: "https://instagram.com/abhisheksingh170212"
   },
-  cover: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1200&auto=format",
+  cover: "public/blog-images/blog-img-second.png",
   images: [
-    "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&auto=format",
-    "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&auto=format",
-    "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format",
-    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format"
+    "public/images/img.jpeg",
+    "public/images/img2.jpeg",
+    "public/images/img3.jpeg",
+    "public/images/img4.jpeg",
+    "public/images/img5.jpeg",
+    "public/images/img6.jpeg"
   ]
 };
 
@@ -165,7 +167,7 @@ const CreatorProfile = () => {
   const { isOpen: isGalleryOpen, onOpen: openGallery, onClose: closeGallery } = useDisclosure();
 
   // Control the animation direction (0 = left, 1 = right, 2 = up, 3 = down)
-  const animationDirection = 0; // Change this to control direction
+  const animationDirection = 0; 
 
   const getAnimationProps = () => {
     switch(animationDirection) {
